@@ -1,6 +1,7 @@
 import numpy as np
 from scipy.ndimage.filters import gaussian_filter
-from skimage.draw import circle, line_aa, polygon
+from skimage.draw import line_aa, polygon
+from skimage.draw import circle_perimeter as circle
 import json
 
 import matplotlib
